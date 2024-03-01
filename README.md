@@ -1,4 +1,4 @@
-# SeaIceCNN
+# TVC Experiment 2018/19
 
 This repository contains the techniques and code referenced in the following publication:
 
