@@ -27,6 +27,10 @@ Arctic amplificatAccurate snow information at high spatial and temporal resoluti
 > Access to RADARSAT-2 data products is not included with this repository. RADARSAT-2 Data and Products © MacDonald, Dettwiler and Associates Ltd. (2023) – All Rights Reserved. RADARSAT is an official mark of the Canadian Space Agency.
 > The TerraSAR-X data are available through the DLR (© DLR 2019).
 
+## Ackowledgments
+
+A special thanks to [M. Brady](https://github.com/m9brady) for all his help in organizing this repo and making it shareable and to Peter Toose for his help with the data organization and publication on Zenodo.  
+
 ## Environment Configuration
 
 Use [miniconda](https://docs.conda.io/projects/miniconda/en/latest/), [mamba](https://mamba.readthedocs.io/en/latest/) or [anaconda](https://www.anaconda.com/download) to recreate the runtime environment:
