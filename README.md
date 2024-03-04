@@ -35,8 +35,9 @@ Use [miniconda](https://docs.conda.io/projects/miniconda/en/latest/), [mamba](ht
 ```
 conda env create -n smrt -f environment.yml
 conda activate smrt
-add details to get smrt from repo and link to environment
 ```
+With the environment activated you can follow the installation instructions from [ghislainp](https://github.com/ghislainp) to install the latest stable SMRT release [SMRT](https://github.com/smrt-model/smrt)
+
 > **Warning** 
 > The provided environment.yml file was generated on Windows 10 and may behave differently on Linux or Mac systems.
 
