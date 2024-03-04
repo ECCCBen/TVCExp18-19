@@ -56,7 +56,7 @@ Data
 ├────── SMP_ddmmyy_RSXX.csv
 ├────── SSA_ddmmyy_RSXX.csv
 ├──── ...
-├──	radar_site_stats.pkl
+├── UMass_TVC18-19_DB.pkl
 ├── RS2_TVC18-19_DB.geojson
 ├── TSX_TVC18-19_DB.geojson
 ├── SoilRough_ALS2018_TVC18-19.pkl
