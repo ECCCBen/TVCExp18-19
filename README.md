@@ -20,7 +20,7 @@ Accurate snow information at high spatial and temporal resolution is needed to s
 </p>
 
 <p align="center">
-    <i>Figure 2 from [Montpetit et al. (2024)[Link TBD]: Flight lines completed during each of the TVC snow deployments (a). The 2016 vegetation classification map [Grunberg and Boïke (2019)](https://doi.pangaea.de/10.1594/PANGAEA.904270) with the location of the surveyed sites and soil stations (b). The weather station is located at the SM site. The size of the surveyed sites box corresponds to the 100 m footprint of the radar data.</i>
+    <i>Figure 2 from [Montpetit et al. (2024)[Link TBD]: Flight lines completed during each of the TVC snow deployments (a). The 2016 vegetation classification map <a href="https://doi.pangaea.de/10.1594/PANGAEA.904270">Grunberg and Boïke (2019)</a> with the location of the surveyed sites and soil stations (b). The weather station is located at the SM site. The size of the surveyed sites box corresponds to the 100 m footprint of the radar data.</i>
 </p>
 
 > **Warning**
