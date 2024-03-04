@@ -1,4 +1,4 @@
-# SeaIceCNN
+# TVC Experiment 2018/19
 
 This repository contains the techniques and code referenced in the following publication:
 
@@ -43,7 +43,7 @@ add details to get smrt from repo and link to environment
 ## Data Preparation
 
 To download the datasets used by the notebooks, use the following 
-[zenodo link](https://doi.org/10.5281/zenodo.8350643) and store the data as shown:
+[zenodo link](https://doi.org/10.5281/zenodo.8350643) and [pangea link](https://doi.pangaea.de/10.1594/PANGAEA.934387?format=html#download) store the data as shown:
 
 ```
 Data
@@ -56,7 +56,7 @@ Data
 ├────── SMP_ddmmyy_RSXX.csv
 ├────── SSA_ddmmyy_RSXX.csv
 ├──── ...
-├──	radar_site_stats.pkl
+├── UMass_TVC18-19_DB.pkl
 ├── RS2_TVC18-19_DB.geojson
 ├── TSX_TVC18-19_DB.geojson
 ├── SoilRough_ALS2018_TVC18-19.pkl
