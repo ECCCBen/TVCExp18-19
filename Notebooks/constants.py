@@ -53,6 +53,6 @@ TVC_INC_RANGE = [20,50]
 PIXEL_AREA = 4 #in m^2
 
 # Relative file paths
-VEG_TYPE_FILE = r'Data/vegetation_map_TVC_2019.tif'
-VEG_HEIGHT_FILE = r'Data/TVC_ALS_201808_VegetationHeight_Mean.tif'
-DTM_ELV_FILE = r'Data/TVC_ALS_201808_DTM.tif'
+VEG_TYPE_FILE = r'../Data/vegetation_map_TVC_2019.tif'
+VEG_HEIGHT_FILE = r'../Data/TVC_ALS_201808_VegetationHeight_Mean.tif'
+DTM_ELV_FILE = r'../Data/TVC_ALS_201808_DTM.tif'

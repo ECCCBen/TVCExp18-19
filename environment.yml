@@ -1,4 +1,4 @@
-name: smrt
+name: test
 channels:
   - conda-forge
   - defaults
@@ -28,11 +28,11 @@ dependencies:
   - brotli-python=1.0.9=py311h12c1d0e_9
   - bzip2=1.0.8=h8ffe710_4
   - c-ares=1.22.1=hcfcfb64_0
-  - ca-certificates=2023.11.17=h56e8100_0
+  - ca-certificates=2024.2.2=h56e8100_0
   - cached-property=1.5.2=hd8ed1ab_1
   - cached_property=1.5.2=pyha770c72_1
   - cairo=1.16.0=hdecc03f_1016
-  - certifi=2023.11.17=pyhd8ed1ab_0
+  - certifi=2024.2.2=pyhd8ed1ab_0
   - cffi=1.15.1=py311h7d9ee11_3
   - cfitsio=4.2.0=h9ebe7e4_0
   - cftime=1.6.3=py311h59ca53f_0
@@ -192,7 +192,7 @@ dependencies:
   - numpy=1.25.1=py311h0b4df5a_0
   - openjpeg=2.5.0=ha2aaf27_2
   - openpyxl=3.1.2=py311ha68e1ae_1
-  - openssl=3.2.0=hcfcfb64_1
+  - openssl=3.2.1=hcfcfb64_0
   - orc=1.7.4=h623e30f_1
   - overrides=7.3.1=pyhd8ed1ab_0
   - packaging=23.1=pyhd8ed1ab_0
@@ -260,6 +260,7 @@ dependencies:
   - shapely=2.0.1=py311h343093d_1
   - sip=6.7.9=py311h12c1d0e_0
   - six=1.16.0=pyh6c4a22f_0
+  - sklearn-json=0.1.0=pyhd8ed1ab_0
   - snappy=1.1.10=hfb803bf_0
   - sniffio=1.3.0=pyhd8ed1ab_0
   - sortedcontainers=2.4.0=pyhd8ed1ab_0
@@ -312,3 +313,4 @@ dependencies:
       - affine==2.4.0
       - rasterio==1.3.9
       - snuggs==1.4.7
+prefix: C:\Users\MontpetitB\AppData\Local\anaconda3\envs\test
