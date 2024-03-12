@@ -3,12 +3,16 @@
 This repository contains the techniques and code referenced in the following publication:
 
 
->  Benoit Montpetit, Joshua King, Julien Meloche, Chris Derksen, Paul Siqueira, J. Max Adam, Peter Toose, Mike Brady, Anna Wendleder, Vincent Vionnet and Nicolas R. Leroux. Submitted to The Cryosphere, March 2024. Retrieval of airborne Ku-Band SAR Using Forward Radiative Transfer Modeling to Estimate Snow Water Equivalent: The Trail Valley Creek 2018/19 Snow Experiment, The Cryosphere.
+>  Montpetit, B., King, J., Meloche, J., Derksen, C., Siqueira, P., Adam, J. M., Toose, P., Brady, M., Wendleder, A., Vionnet, V., and Leroux, N. R.: Retrieval of airborne Ku-Band SAR Using Forward Radiative Transfer Modeling to Estimate Snow Water Equivalent: The Trail Valley Creek 2018/19 Snow Experiment, EGUsphere [preprint], https://doi.org/10.5194/egusphere-2024-651, 2024.
 
 
-Open-Access Publication: Link TBD
+Open-Access Publication (Preprint): [![Static Badge](https://img.shields.io/badge/The_Cryosphere-blue)](https://doi.org/10.5194/egusphere-2024-651)
 
-Open-Access Datasets: Links TBD
+Open-Access Dataset: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10794207.svg)](https://doi.org/10.5281/zenodo.10794207)
+					 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10794868.svg)](https://doi.org/10.5281/zenodo.10794868)
+					 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10794918.svg)](https://doi.org/10.5281/zenodo.10794918)
+					 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10794954.svg)](https://doi.org/10.5281/zenodo.10794954)
+					 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10794980.svg)](https://doi.org/10.5281/zenodo.10794980)
 
 
 ## Abstract
@@ -59,8 +63,16 @@ With the environment activated you can follow the installation instructions from
 
 To download the datasets used by the notebooks, use the following links:
 
-- [Zenodo: TVCSnow 2018-2019 tundra snow depth probe measurements](https://zenodo.org/records/4021401)
-  - To be updated to show Ben's per-site data
+- [Zenodo: TVC Experiment 2018/19: Snow Field Measurements](https://doi.org/10.5281/zenodo.10794207)
+  - Zip file containing all the files under the `Site` subdirectory
+- [Zenodo: TVC Experiment 2018/19: UMass Airborne Ku-Band SAR data](https://doi.org/10.5281/zenodo.10794918)
+  - `UMass_TVC18-19_DB.geojson`
+- [Zenodo: TVC Experiment 2018/19: TerraSAR-X backscatter data](https://doi.org/10.5281/zenodo.10794868)
+  - `TSX_TVC18-19_DB.geojson`
+- [Zenodo: TVC Experiment 2018/19: Radarsat-2 backscatter data](https://doi.org/10.5281/zenodo.10794954)
+  - `RS2_TVC18-19_DB.geojson`
+- [Zenodo: TVC Experiment 2018/19: LiDAR processed soil roughness](https://doi.org/10.5281/zenodo.10794980)
+  - `SoilRough_ALS2018_TVC18-19.json`
 - [Pangaea: Airborne Laser Scanning (ALS) Point Clouds of Trail Valley Creek, NWT, Canada (2018)](https://doi.pangaea.de/10.1594/PANGAEA.934387)
   - `vegetation_map_TVC_2019.tif`
 - [Pangaea: Vegetation map of Trail Valley Creek, Northwest Territories, Canada.](https://doi.pangaea.de/10.1594/PANGAEA.904270)
@@ -80,10 +92,10 @@ Data
 ├────── SMP_ddmmyy_RSXX.csv
 ├────── SSA_ddmmyy_RSXX.csv
 ├──── ...
-├── UMass_TVC18-19_DB.pkl
+├── UMass_TVC18-19_DB.geojson
 ├── RS2_TVC18-19_DB.geojson
 ├── TSX_TVC18-19_DB.geojson
-├── SoilRough_ALS2018_TVC18-19.pkl
+├── SoilRough_ALS2018_TVC18-19.json
 ├── TVC_ALS_201808_DTM.tif
 ├── TVC_ALS_201808_VegetationHeight_Mean.tif
 ├── vegetation_map_TVC_2019.tif
