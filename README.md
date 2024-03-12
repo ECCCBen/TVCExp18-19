@@ -35,7 +35,7 @@ it becomes possible to properly characterize the snow and how it translates into
 </p>
 
 <p align="center">
-    <i>Figure 2 from [Montpetit et al. (2024)[Link TBD]: Flight lines completed during each of the TVC snow deployments (a). The 2016 vegetation classification map <a href="https://doi.pangaea.de/10.1594/PANGAEA.904270">Grunberg and Boïke (2019)</a> with the location of the surveyed sites and soil stations (b). The weather station is located at the SM site. The size of the surveyed sites box corresponds to the 100 m footprint of the radar data.</i>
+    <i>Figure 2 from <a href="https://doi.org/10.5194/egusphere-2024-651">Montpetit et al. (2024)</a>: Flight lines completed during each of the TVC snow deployments (a). The 2016 vegetation classification map <a href="https://doi.pangaea.de/10.1594/PANGAEA.904270">Grunberg and Boïke (2019)</a> with the location of the surveyed sites and soil stations (b). The weather station is located at the SM site. The size of the surveyed sites box corresponds to the 100 m footprint of the radar data.</i>
 </p>
 
 > **Warning**
