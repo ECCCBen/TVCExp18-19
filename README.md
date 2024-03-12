@@ -8,11 +8,12 @@ This repository contains the techniques and code referenced in the following pub
 
 Open-Access Publication (Preprint): [![Static Badge](https://img.shields.io/badge/The_Cryosphere-blue)](https://doi.org/10.5194/egusphere-2024-651)
 
-Open-Access Dataset: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10794207.svg)](https://doi.org/10.5281/zenodo.10794207)  
-                     [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10794868.svg)](https://doi.org/10.5281/zenodo.10794868)  
-					 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10794918.svg)](https://doi.org/10.5281/zenodo.10794918)  
-					 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10794954.svg)](https://doi.org/10.5281/zenodo.10794954)  
-					 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10794980.svg)](https://doi.org/10.5281/zenodo.10794980)  
+Open-Access Dataset: 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10794207.svg)](https://doi.org/10.5281/zenodo.10794207)  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10794868.svg)](https://doi.org/10.5281/zenodo.10794868)  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10794918.svg)](https://doi.org/10.5281/zenodo.10794918)  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10794954.svg)](https://doi.org/10.5281/zenodo.10794954)  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10794980.svg)](https://doi.org/10.5281/zenodo.10794980)  
 
 
 ## Abstract
