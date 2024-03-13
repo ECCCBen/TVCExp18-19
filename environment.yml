@@ -1,4 +1,4 @@
-name: test
+name: tvc1819
 channels:
   - conda-forge
   - defaults
@@ -192,7 +192,7 @@ dependencies:
   - numpy=1.25.1=py311h0b4df5a_0
   - openjpeg=2.5.0=ha2aaf27_2
   - openpyxl=3.1.2=py311ha68e1ae_1
-  - openssl=3.2.1=hcfcfb64_0
+  - openssl=3.1.5=hcfcfb64_0
   - orc=1.7.4=h623e30f_1
   - overrides=7.3.1=pyhd8ed1ab_0
   - packaging=23.1=pyhd8ed1ab_0
@@ -311,6 +311,9 @@ dependencies:
   - zstd=1.5.2=h12be248_7
   - pip:
       - affine==2.4.0
+      - llvmlite==0.42.0
+      - numba==0.59.0
       - rasterio==1.3.9
+      - smrt==1.2.4
+      - snowmicropyn==1.2.1
       - snuggs==1.4.7
-prefix: C:\Users\MontpetitB\AppData\Local\anaconda3\envs\test

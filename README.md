@@ -35,12 +35,11 @@ it becomes possible to properly characterize the snow and how it translates into
 </p>
 
 <p align="center">
-    <i>Figure 2 from [Montpetit et al. (2024)[Link TBD]: Flight lines completed during each of the TVC snow deployments (a). The 2016 vegetation classification map <a href="https://doi.pangaea.de/10.1594/PANGAEA.904270">Grunberg and Boïke (2019)</a> with the location of the surveyed sites and soil stations (b). The weather station is located at the SM site. The size of the surveyed sites box corresponds to the 100 m footprint of the radar data.</i>
+    <i>Figure 2 from <a href="https://doi.org/10.5194/egusphere-2024-651">Montpetit et al. (2024)</a>: Flight lines completed during each of the TVC snow deployments (a). The 2016 vegetation classification map <a href="https://doi.pangaea.de/10.1594/PANGAEA.904270">Grunberg and Boïke (2019)</a> with the location of the surveyed sites and soil stations (b). The weather station is located at the SM site. The size of the surveyed sites box corresponds to the 100 m footprint of the radar data.</i>
 </p>
 
 > **Warning**
-> Access to RADARSAT-2 data products is not included with this repository. RADARSAT-2 Data and Products © MacDonald, Dettwiler and Associates Ltd. (2023) – All Rights Reserved. RADARSAT is an official mark of the Canadian Space Agency.
-> The TerraSAR-X data are available through the DLR (© DLR 2019).
+> Access to RADARSAT-2 data products is not included with this repository. RADARSAT-2 Data and Products © MacDonald, Dettwiler and Associates Ltd. (2023) – All Rights Reserved. RADARSAT is an official mark of the Canadian Space Agency. The TerraSAR-X data are available through the DLR (© DLR 2019).
 
 ## Ackowledgments
 
@@ -52,10 +51,11 @@ Use [miniconda](https://docs.conda.io/projects/miniconda/en/latest/), [mamba](ht
 
 
 ```
-conda env create -n smrt -f environment.yml
-conda activate smrt
+conda env create -n tvc1819 -f environment.yml
+conda activate tvc1819
 ```
-With the environment activated you can follow the installation instructions from [G. Picard](https://github.com/ghislainp) to install the latest stable SMRT release [SMRT](https://github.com/smrt-model/smrt)
+
+The `tvc1819` environment installs the Snow Microwave Radiative Transfer Model (SMRT) version 1.2.4 (released 2024/01/18). If you would like to use a more recent version, then with the environment activated you can follow the installation instructions from [G. Picard](https://github.com/ghislainp) to install the latest stable SMRT release: [SMRT install instructions](https://github.com/smrt-model/smrt?tab=readme-ov-file#quick-installation)
 
 > **Warning** 
 > The provided environment.yml file was generated on Windows 10 and may behave differently on Linux or Mac systems.
@@ -75,10 +75,10 @@ To download the datasets used by the notebooks, use the following links:
 - [Zenodo: TVC Experiment 2018/19: LiDAR processed soil roughness](https://doi.org/10.5281/zenodo.10794980)
   - `SoilRough_ALS2018_TVC18-19.json`
 - [Pangaea: Airborne Laser Scanning (ALS) Point Clouds of Trail Valley Creek, NWT, Canada (2018)](https://doi.pangaea.de/10.1594/PANGAEA.934387)
-  - `vegetation_map_TVC_2019.tif`
-- [Pangaea: Vegetation map of Trail Valley Creek, Northwest Territories, Canada.](https://doi.pangaea.de/10.1594/PANGAEA.904270)
   - `TVC_ALS_201808_DTM.tif`
   - `TVC_ALS_201808_VegetationHeight_Mean.tif`
+- [Pangaea: Vegetation map of Trail Valley Creek, Northwest Territories, Canada.](https://doi.pangaea.de/10.1594/PANGAEA.904270)
+  - `vegetation_map_TVC_2019.tif`
 
 and store the data as shown:
 
@@ -104,7 +104,7 @@ Data
 
 ## Exploring the Notebooks
 
-After setting up the environment and data, you may wish to look first at the Table of Contents in [the index notebook](./index.ipynb) to discover which parts of the code interest you. In order to launch the Table of Contents notebook on your local system, use the following command while inside the activated `smrt` environment:
+After setting up the environment and data, you may wish to look first at the Table of Contents in [the index notebook](./index.ipynb) to discover which parts of the code interest you. In order to launch the Table of Contents notebook on your local system, use the following command while inside the activated `tvc1819` environment:
 
 ```
 jupyter notebook index.ipynb
